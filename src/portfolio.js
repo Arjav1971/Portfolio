@@ -279,7 +279,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/vrp2.jpg"),
+      image: require("./assets/images/last-mile-delivery-trends.webp"),
       projectName: "Vehicle Routing Solver for ”Last-Mile Delivery” ",
       projectDesc: "– Created a solver to optimize delivery vehicle routes, considering capacity limits and dynamic pickup points.",
       footerLink: [
