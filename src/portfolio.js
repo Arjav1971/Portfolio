@@ -372,7 +372,7 @@ const achievementSection = {
       title: "Stanford Online ",
       subtitle:
         "Advanced Learning Algorithms.",
-      image: require("./assets/images/stanford.jpg"),
+      image: require("./assets/images/stanford.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -386,7 +386,7 @@ const achievementSection = {
     {
       title: "Stanford Online ",
       subtitle: "Supervised Machine Learning (Regression and Classification).",
-      image: require("./assets/images/stanford.jpg"),
+      image: require("./assets/images/stanford.png"),
 
       imageAlt: "PWA Logo",
       footerLink: [
