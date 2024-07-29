@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Arjav Barya",
-  title: "Roger that!, I'm Arjav",
+  title: "Roger that !, I'm Arjav",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 experienced in crafting web applications with the MERN stack and other cool libraries and frameworks. I also love solving problems in C++. Ready to code and conquer? Let's dive in!"
   ),
@@ -129,6 +129,10 @@ softwareSkills: [
     skillName: "redux",
     fontAwesomeClassname: "fab fa-redux"
   },
+  {
+    skillName: "vue",
+    fontAwesomeClassname: "fab fa-vuejs"
+  }
 ],
 display: true // Set false to hide this section, defaults to true
 }
@@ -231,7 +235,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -241,20 +245,75 @@ const bigProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/Food-APP.png"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/food.png"),
+      projectName: "Food App - Food Ordering Platform",
+      projectDesc: "Developed a comprehensive food ordering platform using the MERN stack. ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://food-app-inky-alpha.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/Devhub.png"),
+      projectName: "DevHub - E-commerce Platform ",
+      projectDesc: "Engineered an e-commerce platform from scratch using React, Node.js, MongoDB, and Redux.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://itsdevhub.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/passenger-reacco.jpg"),
+      projectName: "Passenger Reaccommodation Problem Solver",
+      projectDesc: "Optimized Passenger Re-Accommodation Algorithms for Enhanced Travel Experience",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/Arjav1971/Passenger-Re-Accommodation-Problem-Mphasis-"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/vrp2.jpg"),
+      projectName: "Vehicle Routing Solver for ”Last-Mile Delivery” ",
+      projectDesc: "– Created a solver to optimize delivery vehicle routes, considering capacity limits and dynamic pickup points.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/Arjav1971/Grow_Simplee_backend"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/tree-leaves.png"),
+      projectName: "Plant Disease Classification Model ",
+      projectDesc: "Developed a plant disease classification model using ResNet9, achieving an accuracy of 98.7% on a training dataset of 20,000 plant leaf images categorized into 15 disease classes.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/Arjav1971/Plant-Disease-Classification"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/BotMast.png"),
+      projectName: "BotMast Landing Page",
+      projectDesc: "Created the landing page for BotMast , real state CRM company.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://botmast.in/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/To-do-list.png"),
+      projectName: "Taskinator-The-to-do-list ",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -262,7 +321,19 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/Secure-Blink.png"),
+      projectName: "Landing Page",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -273,54 +344,55 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Problem Solving At Leetcode",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Solved 700+ leetcode problems with a consistency of 114 days and contest rating of 1700+.",
+      image: require("./assets/images/leetcode.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Leetcode",
+          url: "https://leetcode.com/u/ArjavBarya0809/"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Stanford Online ",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Advanced Learning Algorithms.",
+      image: require("./assets/images/stanford.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+
+          url: "https://drive.google.com/file/d/13rXTS32i3Z7lnx7rYD7Bim_9X0af5HdC/view?usp=drive_link"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Stanford Online ",
+      subtitle: "Supervised Machine Learning (Regression and Classification).",
+      image: require("./assets/images/stanford.jpg"),
+
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/13rXTS32i3Z7lnx7rYD7Bim_9X0af5HdC/view?usp=drive_link"
         }
       ]
     }
@@ -349,7 +421,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -368,7 +440,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -381,7 +453,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -397,18 +469,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9301763998",
+  email_address: "1971arjavbarya@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
