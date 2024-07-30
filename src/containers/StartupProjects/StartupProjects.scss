@@ -19,7 +19,7 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  // width: 250px;
 }
 .card-title {
   color: $titleColor;
@@ -76,22 +76,10 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 1rem 1rem;
 }
 
-
-.experience-container {
-  display: flex;
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
-
-.experience-container > * {
-  flex: 1;
-}
 
 
 .project-card-footer span.project-tag {
@@ -113,6 +101,11 @@
 }
 
 @media (max-width: 768px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem 1rem;
+  }
   .project-subtitle {
     font-size: 16px;
     text-align: center;
