@@ -2,59 +2,36 @@
   font-family: "Agustina Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"), url("./assets/fonts/Agustina.woff") format("woff");
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"), url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
-
 html,
 body {
   scroll-behavior: smooth;
-  width: 100vw;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  margin: 0;
-  padding: 0;
 }
-
 body {
+  margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
-
-/* Ensure all elements respect the box-sizing and prevent overflow */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Prevents images and other media from causing horizontal scrolling */
-img,
-iframe {
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  max-width: 100%;
-  padding: 0 1rem; /* Optional: Add some padding to the sides */
-}
-
 /* Media Query */
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: 1rem; /* Changed 'rem' to '1rem' */
+    font-size: rem;
     line-height: normal;
   }
 }
