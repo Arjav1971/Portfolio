@@ -3,7 +3,7 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  // width: 250px;
+  width: 250px;
 }
 .card-title {
   color: $titleColor;
@@ -60,7 +60,7 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
 
@@ -83,11 +83,6 @@
 }
 
 @media (max-width: 768px) {
-  .projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem 1rem;
-  }
   .project-subtitle {
     font-size: 16px;
     text-align: center;
