@@ -1,5 +1,17 @@
 @import "../../_globalColor";
 
+.main{
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.main > * {
+  flex: 1;
+}
+
 .card-image {
   max-width: 100%;
   height: auto;
@@ -63,6 +75,20 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
+
+
+.experience-container {
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.experience-container > * {
+  flex: 1;
+}
+
 
 .project-card-footer span.project-tag {
   background: $buttonColor;
