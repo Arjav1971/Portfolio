@@ -1,5 +1,9 @@
 @import "../../_globalColor";
 
+
+// .main{
+//   width: 100vw;
+// }
 .card-image {
   max-width: 100%;
   height: auto;
@@ -60,9 +64,11 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 1rem 1rem;
 }
+
+
 
 .project-card-footer span.project-tag {
   background: $buttonColor;
@@ -83,6 +89,10 @@
 }
 
 @media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+
   .project-subtitle {
     font-size: 16px;
     text-align: center;
