@@ -267,6 +267,19 @@ const bigProjects = {
         }
       ]
     },
+    {    
+      image: require("./assets/images/Admin.png"),
+      projectName: "DevHub - Admin Panel ",
+      projectDesc: "Created  an integrated admin panel for managing products, user roles, orders, and accounts.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "hdev-hub-admin-y8cp.vercel.app/"
+        }
+      ]
+    },
+    
+    
     {
       image: require("./assets/images/passenger-reacco.jpg"),
       projectName: "Passenger Reaccommodation Problem Solver",
