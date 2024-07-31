@@ -274,7 +274,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "hdev-hub-admin-y8cp.vercel.app/"
+          url: "https://devhub-admin.netlify.app/"
         }
       ]
     },
