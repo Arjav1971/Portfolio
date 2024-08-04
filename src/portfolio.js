@@ -331,7 +331,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://its-taskinator.netlify.app/"
         }
       ]
     },
@@ -342,7 +342,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://secure-blink-lake.vercel.app/"
         }
       ]
     },
